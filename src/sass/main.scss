@@ -1,0 +1,37 @@
+// Navbar Style
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0 0 5px 3px #a9a9a9;
+}
+
+.person{
+  .loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+// Person Style
+.person{
+  height: calc(100vh -  100px);
+}
+
+// Footer Style
+.footer{
+  width: 100%;
+  height: 100px;
+  background-color: #28A745;
+  opacity: 0.8;
+  .container{
+    height: 100px;
+  }
+}
